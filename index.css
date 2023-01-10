@@ -1,0 +1,56 @@
+.row1 {
+display: flex;
+justify-content: flex-start;
+margin-top: -22px;
+height: 20px;
+}
+.row2 {
+    display: grid;
+    grid-template-columns: 1fr 30px;
+    margin-top: -22px;
+}
+
+.row3 {
+    display: grid;
+    grid-template-columns: 30px 1fr 30px;
+    margin-top: -22px;
+}
+
+.row4 {
+    display: grid;
+    grid-template-columns: 1fr 30px;
+    margin-top: -22px;
+}
+
+.row5 {
+    display: grid;
+    grid-template-columns: 1fr 30px 1fr;
+    margin-top: -22px;
+    }
+
+.row6 {
+    display: grid;
+    grid-template-columns: 1fr 40px 1fr;
+    margin-top: -22px;
+}
+
+.row7 {
+    display: flex;
+    flex-direction: row;
+    margin-top: -22px;
+}
+
+.row8 {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px 1fr 50px 1fr 50px 1fr 50px;
+    margin-top: -22px;
+}
+
+.row9 {
+    display: grid;
+    grid-template-columns: 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr;
+    margin-top: -22px;
+}
+@media only screen 
+  and (max-width: 320px) {
+    }
